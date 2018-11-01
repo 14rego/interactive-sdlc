@@ -1,0 +1,25 @@
+{
+  "name": "interactive-sdlc",
+  "version": "1.0.0",
+  "description": "Artisans software development lifecycle as an interactive experience",
+  "main": "index.js",
+  "scripts": {
+    "css": "sass src/index.scss src/index.css --watch",
+    "serve": "browser-sync start --serveStatic 'src' --files 'src'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/14rego/interactive-sdlc.git"
+  },
+  "author": "Regan Bourland",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/14rego/interactive-sdlc/issues"
+  },
+  "homepage": "https://github.com/14rego/interactive-sdlc#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "sass": "^1.14.3"
+  }
+}

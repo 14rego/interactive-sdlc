@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Artisan Interactive SDLC</title>
+    <link rel="stylesheet" href="fontello-atg/css/atg.css" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div id="TimelineFrame">
+        <div id="DefineIdea" class="define artifact idea">
+            <span class="atg-idea-03"></span>
+            <span class="label">Ideas</span>
+        </div>
+        <div id="DefineTable" class="define table">
+            <div id="DefineProductOwners" class="define actor product-owners">
+                <span class="atg-product-owners-01"></span>
+                <span class="label">Product Owners</span>
+            </div>
+            <div id="DefineUserExperience" class="define actor user-experience">
+                <span class="atg-user-experience-01"></span>
+                <span class="label">User Experience</span>
+            </div>
+            <div id="DefineSolutionArchitects" class="define actor solution-architects">
+                <span class="atg-engineer-01"></span>
+                <span class="label">Solution Architects</span>
+            </div>
+            <div id="DefineScrumMaster" class="define actor scrum-master">
+                <span class="atg-project-manager-01"></span>
+                <span class="label">Scrum Master</span>
+            </div>
+            <p>PRODUCT TEAM</p>
+        </div>
+        <div class="position-wrapper">
+            <div id="DefineDevFeedback" class="define artifact dev-feedback positioned">
+                <span class="atg-communicate-04"></span>
+                <span class="label">Dev Feedback</span>
+            </div>
+            <div id="DefineQAFeedback" class="define artifact qa-feedback positioned">
+                <span class="atg-bug-report-01"></span>
+                <span class="label">QA Feedback</span>
+            </div>
+            <div id="DevelopAgileProjectPlan" class="define develop artifact agile-project-plan">
+                <span class="atg-plan-02"></span>
+                <span class="label">Agile Project Plan</span>
+            </div>
+        </div>
+        <div id="DevelopTable" class="develop table">
+            <div id="DevelopDeliveryTeam1" class="develop actor delivery-team engineer">
+                <span class="atg-engineer-01"></span>
+                <span class="label">Engineer</span>
+            </div>
+            <div id="DevelopDeliveryTeam2" class="develop actor delivery-team developer">
+                <span class="atg-engineer-01"></span>
+                <span class="label">Engineer</span>
+            </div>
+            <div id="DevelopDeliveryTeam3" class="develop actor delivery-team solution-architects">
+                <span class="atg-engineer-01"></span>
+                <span class="label">Engineer</span>
+            </div>
+            <div id="DevelopDeliveryTeam4" class="develop actor delivery-team scrum-master">
+                <span class="atg-engineer-01"></span>
+                <span class="label">Engineer</span>
+            </div>
+            <p>DELIVERY TEAM</p>
+        </div>
+        <div id="DevelopRawCode" class="develop demonstrate artifact raw-code">
+            <span class="atg-code-funnel-01"></span>
+            <span class="label">Raw Code</span>
+        </div>
+        <div id="DemonstrateContinuousIntegration" class="demonstrate actor continuous-integration">
+            <span class="atg-cloud-02"></span>
+            <span class="label">Continuous Integration</span>
+        </div>
+        <div id="DemonstratePackagedCode" class="demonstrate artifact packaged-code">
+            <span class="atg-package-01"></span>
+            <span class="label">Packaged Code</span>
+        </div>
+        <div class="position-wrapper">
+            <div id="DemonstrateEnvironmentStaging" class="demonstrate environment">
+                <div id="DemonstrateEnvServer" class="demonstrate artifact server">
+                    <span class="atg-server-01"></span>
+                    <span class="label">Server</span>
+                </div>
+                <div id="DemonstrateEnvDatabase" class="demonstrate artifact database">
+                    <span class="atg-database-01"></span>
+                    <span class="label">Database</span>
+                </div>
+                <p>STAGING</p>
+                <div id="DemonstrateEnvCloud" class="demonstrate artifact cloud">
+                    <span class="atg-cloud-02"></span>
+                    <span class="label">Cloud Computing</span>
+                </div>
+                <div id="DemonstrateEnvAPI" class="demonstrate artifact api">
+                    <span class="atg-api-01"></span>
+                    <span class="label">API</span>
+                </div>
+            </div>
+            <div id="DemonstrateQAFeedback" class="demonstrate artifact qa-feedback positioned">
+                <span class="atg-bug-report-01"></span>
+                <span class="label">QA Feedback</span>
+            </div>
+        </div>
+        <div id="DemonstrateQualityAssurance" class="demonstrate actor quality-assurance">
+            <span class="atg-quality-assurance-01"></span>
+            <span class="label">Quality Assurance</span>
+        </div>
+        <div id="DemonstrateQASuccess" class="demonstrate deliver artifact success">
+            <span class="atg-guarantee-01"></span>
+            <span class="label">QA Success</span>
+        </div>
+        <div id="DeliverEnvironmentStaging" class="deliver environment">
+            <div id="DeliverEnvServer" class="deliver artifact server">
+                <span class="atg-server-01"></span>
+                <span class="label">Server</span>
+            </div>
+            <div id="DeliverEnvDatabase" class="deliver artifact database">
+                <span class="atg-database-01"></span>
+                <span class="label">Database</span>
+            </div>
+            <p>PRODUCTION</p>
+            <div id="DeliverEnvCloud" class="deliver artifact cloud">
+                <span class="atg-cloud-02"></span>
+                <span class="label">Cloud Computing</span>
+            </div>
+            <div id="DeliverEnvAPI" class="deliver artifact api">
+                <span class="atg-api-01"></span>
+                <span class="label">API</span>
+            </div>
+        </div>
+        <div id="DeliverEndUser" class="deliver actor end-user">
+            <span class="atg-user-01"></span>
+            <span class="label">End User</span>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TimelineMax.min.js"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
