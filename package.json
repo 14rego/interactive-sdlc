@@ -4,8 +4,7 @@
   "description": "Artisans software development lifecycle as an interactive experience",
   "main": "index.js",
   "scripts": {
-    "css": "sass src/index.scss src/index.css --watch",
-    "serve": "browser-sync start --serveStatic 'src' --files 'src'"
+    "css": "sass src/index.scss src/index.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,6 @@
   "homepage": "https://github.com/14rego/interactive-sdlc#readme",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.26.3",
     "sass": "^1.14.3"
   }
 }
